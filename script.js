@@ -1,5 +1,5 @@
 $("#out").text("Guess a number between 1️⃣ and 2️⃣0️⃣");
-var randomNumber = Math.floor(Math.random() * 20) + 1;;
+var randomNumber = Math.floor(Math.random() * 20) + 1;
 $("#form").submit((e) => {
   e.preventDefault();
 });
